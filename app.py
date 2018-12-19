@@ -431,4 +431,4 @@ def send_img_url(id, img_url):
         print("Unable to send message: " + response.text)
     return response.status_code
 
-run(host="localhost", port=PORT, debug=True, reloader=True)
+run(host="0.0.0.0", port=PORT, debug=True, reloader=True)
